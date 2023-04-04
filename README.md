@@ -16,3 +16,7 @@ exo_app_csharp.
 `kubectl expose deployment/appcsharp --type LoadBalancer --port 80`
 
 `kubectl scale deployment/appcsharp --replicas 5`
+
+##### Lancer avec deployment.yml
+
+`kubectl create -f deployement.yml,service.yml`
